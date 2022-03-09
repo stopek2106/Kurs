@@ -38,22 +38,18 @@
 # # print(new_lista)
 
 
-# tup=(1,4,2,1,5,5,1,2)
-# tmp_list=list(tup)
-# num=0
-# for i in tmp_list:
-#     if i/2 >2:
-#         print("ok")
-#         break
-#     num +=1
-#     print(num)
+tup=(1,4,2,1,5,5,1,2)
+tmp_list=list(tup)
+num=0
+for i in tmp_list:
+    if i/2 >2:
+        print("ok")
+        break
+    num +=1
+    print(num)
 
 
 # SLOWNIKI
-
-
-
-# test
 
 
 
