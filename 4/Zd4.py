@@ -34,8 +34,8 @@
 
 # tup=(1,4,2,1,5,5,1,2)
 # tmp_list=list(tup)
-# # new_lista=[i for i in tmp_list if tmp_list.count(i) > 1]
-# # print(new_lista)
+# new_lista=[i for i in tmp_list if tmp_list.count(i) > 1]
+# print(new_lista)
 
 
 # tup=(1,4,2,1,5,5,1,2)
@@ -51,7 +51,11 @@
 
 # SLOWNIKI
 
+# 6▹ Utwórz listę zawierającą wartości poniższego słownika, bez duplikatów.
 
-
-
-
+days = {'Jan': 31, 'Feb': 28, 'Mar': 31, 'Apr': 30, 'May': 31, 'Jun': 30, 'Jul': 31, 'Aug': 31, 'Sept': 30}
+lista1=list(days.values())
+set1=set(lista1)
+# lista2=[i for i in lista1 if lista1.count(i)  =1]
+lista2=list(set1)
+print(lista2)
