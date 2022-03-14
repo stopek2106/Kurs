@@ -23,7 +23,7 @@
 # else:
 #     print("nie są równe")
 
-# KROTKI
+# ZADANIA KROTKI
 
 #2▹ Stwórz krotkę. Znajdź powtarzające się elementy krotki. Wyświetl je
 
@@ -49,13 +49,65 @@
 #     print(num)
 
 
-# SLOWNIKI
+# Zadania koncowe (listy, słowniki) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+# Zad.1 Utwórz listę lists_to_dict zawierającą listy 2 elementowe. Przekształć ją w słownik dict_from_list.
+
+# moja_lista = [
+#   ['jabłko', 'apple'],
+#   ['gruszka', 'pear'],
+#   ['melon', 'melon']
+# ]
+#
+# print(moja_lista)
+#
+# dict_from_list = dict(moja_lista)
+#
+# print(dict_from_list)
+
+# Zad.4 4▹ Utworz tabliczkę mnożenia jako zagnieżdżoną listę o rozmiarze 10 x 10,
+# wypełnioną wynikami mnożenia wiersz × kolumna.
+
+# row=list(range(1,11))
+# col=list(range(1,11))
+# for x in range(len(row)):
+#     for y in range(len(col)):
+#         multi=row[x]*col[y]
+#         print(multi, end="   ")
+#     print()
+
+# print(multi_xy)i
+
+
+# MACIERZE #####################################################################################
+# lista1=[1,2,3]
+# lista2=[2,3,4]
+# lista3=[4,5,2]
+# suma=[lista1,lista2,lista3]
+# # print(suma)
+# for i in suma:
+#     for elem in i:
+#         print(elem, end=" ")
+#     print()
+
+
 
 # 6▹ Utwórz listę zawierającą wartości poniższego słownika, bez duplikatów.
 
-days = {'Jan': 31, 'Feb': 28, 'Mar': 31, 'Apr': 30, 'May': 31, 'Jun': 30, 'Jul': 31, 'Aug': 31, 'Sept': 30}
-lista1=list(days.values())
-set1=set(lista1)
-# lista2=[i for i in lista1 if lista1.count(i)  =1]
-lista2=list(set1)
-print(lista2)
+# days = {'Jan': 31, 'Feb': 28, 'Mar': 31, 'Apr': 30, 'May': 31, 'Jun': 30, 'Jul': 31, 'Aug': 31, 'Sept': 30}
+# lista1=list(days.values())
+# set1=set(lista1)
+# #lista2=[i for i in lista1 if lista1.count(i)  =1]
+# lista2=list(set1)
+# print(lista2)
+
+# 8 Utwórz słownik dla 10 krajów Europy zawierajacy listy 10 najpopularniejszych imion żeńskich.
+# Zapisz imiona w wersji anglojęzycznej. Dodaj wszystki listy razem. Nowa lista powinna zawierać 100 elementów.
+# Wyświetl tylko te imiona, które wystąpiły conajmniej w 3 krajach.
+
+# lands=['Polska', 'Niemcy', 'Francja']
+# name1 =['Ala', 'Ola', 'Ela']
+# name2=['Ewa', 'Aga', 'Marta']
+# name3=['Wiki', 'Anna', 'Zuza']
+
+
